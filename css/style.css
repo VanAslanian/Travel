@@ -1889,3 +1889,10 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.logo {
+  position: relative;
+  width: 65%;
+  margin: -60px;
+}
