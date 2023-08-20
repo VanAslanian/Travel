@@ -2230,7 +2230,7 @@ form label {
     grid-template-columns: 1fr 2fr;
 
     align-items: baseline;
-    padding-bottom: 4vmin;
+    padding-bottom: 10vmin;
     width: 100%;
     /*background: #ede8e2;*/
     color: #3a3535;
