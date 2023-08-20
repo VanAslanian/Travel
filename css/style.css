@@ -81,11 +81,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .gtco-container {
-  max-width: 1100px;
+  /*max-width: 1100px;*/
+  width: 100%;
   position: relative;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .gtco-nav {
@@ -97,6 +98,8 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   padding: 20px 0;
   z-index: 1001;
+
+  padding-right: 5%;
 }
 @media screen and (max-width: 768px) {
   .gtco-nav {
@@ -754,9 +757,7 @@ form label {
   border-bottom: 1px solid #e6e6e6;
 }
 
-#gtco-features {
-  background: #09C6AB;
-}
+
 #gtco-features .gtco-heading h2 {
   color: #fff;
 }
@@ -1893,7 +1894,7 @@ form label {
   margin: -60px;
 }
 .p_h2 {
-  color: #ffffff;
+  color: #000000;
   font-family: "Lato", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -1978,7 +1979,8 @@ form label {
 #app {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  align-items: center;
+
+  align-items: baseline;
   padding-bottom: 4vmin;
   width: 100%;
   /*background: #ede8e2;*/
@@ -1987,7 +1989,7 @@ form label {
 
 body {
   display: grid;
-  background: #e6ded7;
+  /*background: #e6ded7;*/
 }
 
 .title {
@@ -2126,7 +2128,3 @@ body {
   height: auto;
 }
 
-body:active * {
-  -webkit-animation: none !important;
-  animation: none !important;
-}
