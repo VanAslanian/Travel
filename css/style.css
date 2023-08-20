@@ -240,8 +240,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 992px) {
   #gtco-header.gtco-cover {
-    height: inherit !important;
-    padding: 3em 0 !important;
+      padding: 3em 0 !important;
   }
 }
 @media screen and (max-width: 480px) {
@@ -2128,3 +2127,29 @@ body {
   height: auto;
 }
 
+@media screen and (max-width: 410px) {
+.logo{
+  position: relative;
+  width: 27%;
+  margin: -45px;
+}
+  #app{
+    width: 120%;
+  }
+  .gtco-heading p{
+    font-size:15px ;
+  }
+  .row {
+     margin-left: 0;
+     margin-right: 0;
+  }
+  .container_h2{
+    font-size: 0.7em ;
+  }
+.image {
+  margin-left: -16rem;
+}
+.title{
+  font-size: 10vw;
+}
+}
