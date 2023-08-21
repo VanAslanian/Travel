@@ -825,6 +825,7 @@ form label {
 #gtco-subscribe,
 #gtco-footer,
 .gtco-section {
+    background-color:#ffffff ;
     padding: 7em 0;
     clear: both;
     position: relative;
@@ -2662,12 +2663,11 @@ body {
 /* 48em = 768px */
 
 @media (min-width: 48em) {
-    .header li {
-        float: left;
-    }
-    .header li a {
-        padding: 20px 30px;
-    }
+  .ul_nav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
     .header .menu {
         clear: none;
         float: right;
@@ -2677,3 +2677,101 @@ body {
         display: none;
     }
 }
+.sample-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 600px;
+    width: 100%;
+    background-image: url("/images/bg-for-header.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sample-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /*background-color: MidnightBlue;*/
+    /*opacity: 0.3;*/
+}
+.sample-header-section {
+    position: relative;
+    padding: 15% 0 10%;
+    /*max-width: 640px;*/
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    font-family: "Montserrat", sans-serif;
+}
+h1 {
+    font-weight: 500;
+}
+h2 {
+    font-weight: 400;
+}
+.sample-section-wrap {
+    position: relative;
+    background-color: white;
+}
+/*.sample-section {*/
+/*    position: relative;*/
+/*    max-width: 640px;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*    padding: 40px;*/
+/*}*/
+
+
+
+
+.item {
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap;
+    font-family: "Lato", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 5vw;
+}
+
+.item:first-of-type {
+    animation: showup 14s infinite;
+}
+
+.item:last-of-type {
+    width:0px;
+    animation: reveal 14s infinite;
+}
+
+.item:last-of-type span {
+    margin-left:-500px;
+    animation: slidein 12s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-500px; }
+    20% { margin-left:-500px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:500px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:500px;}
+}
+
+
