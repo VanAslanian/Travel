@@ -2443,7 +2443,7 @@ body {
   height: 60px;
   width: 60px;
   margin-right: 20px;
-  color: ##fff;
+  color: #fff;
   border-radius: 100%;
   position: relative;
 }
@@ -2717,7 +2717,7 @@ h2 {
 .sample-section-wrap {
     position: relative;
     background-color: white;
-} */
+}
 /*.sample-section {*/
 /*    position: relative;*/
 /*    max-width: 640px;*/
