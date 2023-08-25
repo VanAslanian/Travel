@@ -40,68 +40,47 @@
 <body>
 
 <div class="gtco-loader"></div>
-
-<div id="page">
-    <header class="header">
-        <div id="contanier__menu">
-            <a href="index.html" style="width: 125px; height: 35px;margin: -65px auto" class="logo">
-                <img style="width: 100%; margin-top: 35px" src="./images/logo1-removebg-preview.png" alt="">
-            </a>
-            <input class="menu-btn" type="checkbox" id="menu-btn"/>
-            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-            <ul class="menu ul_nav ">
-                <div class="wrp"><a class="icon icon-twitter" href="#"><i class="fa fa-twitter"></i></a><a
-                        class="icon icon-facebook" href="#"><i class="fa fa-facebook"></i></a><a
-                        class="icon icon-instagram" href="#"><i class="fa fa-instagram"></i></a><a
-                        class="icon icon-gplus" href="#"><i class="fa fa-google-plus"></i></a></div>
-
-                <li><a href="contact.html">Կապ</a></li>
-            </ul>
+<header class="main-header">
+  <div class="header-wrapper">
+    <div  class="main-logo"><img style="width: 100px;"  src="./images/logo1-removebg-preview.png" alt=""></div>
+    <nav>
+      <ul class="main-menu">
+      <li>  <div class="wrp"><a class="icon icon-twitter" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path fill = "#fff" d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg></a><a
+          class="icon icon-facebook" href="#"><i class="fa fa-facebook"></i></a><a
+          class="icon icon-instagram" href="#"><i class="fa fa-instagram"></i></a>
+          <a class="icon icon-gplus" href="#"><i class="fa fa-google-plus"></i></a>
+          
+          <a class="icon icon-gplus" href="#"><i class="fa fa-youtube-play"></i></a>
         </div>
-    </header>
-    <div class="sample-header">
-        <div class="sample-header-section">
-            <div class="item item1">Hey!</div>
-            <div class="item item2">
-                <span class="span1">How you doin?</span>
-            </div>
+        </li>
+        <li><a href="contact.html">Կապ</a></li>
+        <li><a href="#"><span class="fa fa-shopping-cart"></span></a></li>
+        <li><a href="#"><span class="fa fa-search"></span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<section id="section-1">
+  <div class="content-slider">
+    <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>
+    <input type="radio" id="banner2" class="sec-1-input" name="banner">
+    <input type="radio" id="banner3" class="sec-1-input" name="banner">
+    <input type="radio" id="banner4" class="sec-1-input" name="banner">
+    <div class="slider">
+      <div id="top-banner-1" class="banner">
+        <div class="banner-inner-wrapper">
+          <h1 style="color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(191,191,204,1) 0%, rgba(0,212,255,1) 100%); font-family: 'Montserrat', sans-serif;">Welcome<br>Elite Cruisies</h1>
+          <div class="line"></div>
+          <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
         </div>
+      </div>
     </div>
-<!--    <div id="app">-->
-<!--        <div class="title">-->
-<!--            <div class="title-inner">-->
-<!--                <div class="cafe">-->
-<!--                    <div class="cafe-inner">Elite</div>-->
-<!--                </div>-->
-<!--                <div class="mozart">-->
-<!--                    <div class="mozart-inner">Cruisies</div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
 
-<!--        <div class="image">-->
-<!--            <img src='./images/bg-for-header.jpg' alt=''>-->
-<!--        </div>-->
-<!--    </div>-->
-    <div style="padding: 0 0; margin-top:75vh  " id="gtco-features">
-        <div class="gtco-container">
-            <div style="margin:0 auto; width: 100%;" class="col-md-8 col-md-offset-2 text-center gtco-heading">
-                <main class="container_h2">
-                    <div class="p_h2">Փնտրեք ձեր ցանկալի</div>
-                    <section style=" border-radius: 5px" class="animation_h2">
-                        <div class="first">
-                            <div style="color: #2e6da4;">կռուիզը</div>
-                        </div>
-                        <div class="second">
-                            <div style="color: #2e6da4;">հանգիստը</div>
-                        </div>
-                        <div class="third">
-                            <div style="color: #2e6da4;">շրջագայությունը</div>
-                        </div>
-                    </section>
-                </main>
-            </div>
-        </div>
+  </div>
+</section>
+
+    <div style="padding: 0 0; margin-top:13vh  " id="gtco-features">
+
         <iframe src="https://center.cruises/widget/?uuid=d574a29b-19ea-4066-9064-32c1392d8d48&lang=en&currency=eur"
                 style="width: 100%; height: 1100px; overflow: scroll; border: none;"></iframe>
     </div>
@@ -113,12 +92,12 @@
     <div class="gtco-container text-center">
         <div class="display-t">
             <div class="display-tc">
-                <h1>We have high quality services that you will surely love!</h1>
+                <h1>Elite Cruises-ը նպաստում է յուրաքանչյուրի կյանքի որակի բարելավմանը՝ շքեղ նավարկությունները ինքնուրույն ամրագրելու միջոցով՝ ուղիղ արժեքներով, առանց միջնորդի:</h1>
             </div>
         </div>
     </div>
 </div>
-<div class="gtco-section">
+<!-- <div class="gtco-section"> -->
     <div class="gtco-container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
@@ -317,7 +296,10 @@
                     </ul>
                 </div>
             </div>
-
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+            <a href="https://api.whatsapp.com/send?phone=+374 77 141118&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+            </a>
             <div class="col-md-2 col-md-push-1">
                 <div class="gtco-widget">
                     <h3>Hotels</h3>
