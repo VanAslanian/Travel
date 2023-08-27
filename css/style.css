@@ -65,8 +65,10 @@ a:hover, a:active, a:focus {
 p {
     margin-bottom: 20px;
 }
-
-h1, h2, h3, h4, h5, h6, figure {
+h1 {
+    color: #e5e3e3;
+}
+ h2, h3, h4, h5, h6, figure {
     color: #000;
     font-family: "Lato", Arial, sans-serif;
     font-weight: 400;
@@ -2018,10 +2020,10 @@ form label {
 }
 .icon {
   display: inline-block;
-  font-size: 25px;
-  line-height: 45px;
-  height: 50px;
-  width: 50px;
+  font-size: 18px;
+  line-height: 39px;
+  height: 40px;
+  width: 40px;
   margin-right: 20px;
   color: #fff;
   border-radius: 100%;
@@ -2210,7 +2212,7 @@ form label {
 #section-1 .content-slider .slider .banner .banner-inner-wrapper {
   height: 100%;
   padding-top: 6em;
-  background: no-repeat center url("../images/bg-for-header.jpg");
+  background: no-repeat center url("../images/bg-4.jpg");
   box-sizing: border-box;
 }
 #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {
