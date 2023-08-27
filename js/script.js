@@ -12,3 +12,5 @@ $(window).scroll(function() {
 $(window).resize(function() {
     parallax_height();
 });
+
+
