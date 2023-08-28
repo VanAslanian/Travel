@@ -56,7 +56,10 @@ nav > ul > li > a:hover {
 
     color: #fff;
 }
-
+.menu img {
+    margin-top: 5px;
+    width: 45px;
+}
 nav > ul > li > a {
     color: #262626;
     text-decoration: none;
