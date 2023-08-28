@@ -57,7 +57,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-    color: #09C6AB;
+    color: #7fdcad;
     outline: none;
     text-decoration: none;
 }
@@ -320,7 +320,7 @@ h1 {
 
 @media screen and (max-width: 768px) {
     #gtco-header h1 {
-        font-size: 34px;
+        font-size: 24px;
         line-height: 1.2;
         margin-bottom: 10px;
     }
@@ -759,7 +759,7 @@ form label {
     #gtco-header .display-tc h1,
     #gtco-counter .display-tc h1,
     .gtco-cover .display-tc h1 {
-        font-size: 34px;
+        font-size: 24px;
         line-height: 1.2;
         margin-bottom: 10px;
     }
@@ -2212,7 +2212,7 @@ form label {
 #section-1 .content-slider .slider .banner .banner-inner-wrapper {
   height: 100%;
   padding-top: 6em;
-  background: no-repeat center url("../images/bg-4.jpg");
+  background: no-repeat center url("../images/bg-5.jpg");
   box-sizing: border-box;
 }
 #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {
@@ -2223,7 +2223,7 @@ form label {
   text-transform: none;
 }
 #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {
-  font-size: 6em;
+  font-size: 5em;
   line-height: 95%;
 }
 #section-1 .content-slider .slider .banner .banner-inner-wrapper .line {
@@ -2394,7 +2394,7 @@ form label {
     width: 65%;
   }
   #section-1 {
-    height: 40em;
+    height: 35em;
   }
   #section-1 .content-slider .slider .banner .banner-inner-wrapper {
 

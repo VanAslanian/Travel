@@ -80,7 +80,6 @@
                 <div class="banner-inner-wrapper">
                     <h1 >Բարի գալուստ<br>Elite Cruisies</h1>
                     <div class="line"></div>
-                    <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
                 </div>
             </div>
         </div>
@@ -90,7 +89,7 @@
 
 <div style="padding: 0 0; margin-top:13vh  " id="gtco-features">
 
-    <iframe src="https://center.cruises/widget/?uuid=d574a29b-19ea-4066-9064-32c1392d8d48&lang=en&currency=eur"
+    <iframe id = "iframe"
             style="width: 100%; height: 1100px; overflow: scroll; border: none;"></iframe>
 </div>
 
@@ -335,18 +334,7 @@
 
         </div>
 
-        <div class="row copyright">
-            <div class="col-md-12">
-                <p class="pull-left">
-                    <small class="block">&copy; All Rights Reserved.</small>
-                    <small class="block">Designed by <a href="https://YourWebsite.co/"
-                                                        target="_blank">YourWebsite.co</a> Demo Images: <a
-                            href="http://Image.com/" target="_blank">Image</a></small>
-                </p>
-                <p class="pull-right">
-                </p>
-            </div>
-        </div>
+
 
     </div>
 </footer>
@@ -359,6 +347,9 @@
 
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script type="text/javascript">
+        $(document).ready(function(e) {
+        $('iframe').attr('src','https://center.cruises/widget/?uuid=d574a29b-19ea-4066-9064-32c1392d8d48&lang=en&currency=eur');
+    });
     $(window).on('scroll', function () {
         if ($(window).scrollTop()) {
             $('nav').addClass('black');

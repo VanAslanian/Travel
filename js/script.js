@@ -13,4 +13,3 @@ $(window).resize(function() {
     parallax_height();
 });
 
-
