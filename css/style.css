@@ -750,7 +750,7 @@ form label {
 #gtco-counter .display-tc h1,
 .gtco-cover .display-tc h1 {
     margin-bottom: 0px;
-    font-size: 2em;
+    font-size: 2.6em;
     line-height: 1.5;
     font-weight: 300;
 }
@@ -2210,9 +2210,10 @@ form label {
   transition: all 0.5s ease;
 }
 #section-1 .content-slider .slider .banner .banner-inner-wrapper {
+    /*min-width: 150%;*/
   height: 100%;
   padding-top: 6em;
-  background: no-repeat center url("../images/bg-5.jpg");
+  background: no-repeat center url("../images/bg-7.jpg");
   box-sizing: border-box;
 }
 #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {
