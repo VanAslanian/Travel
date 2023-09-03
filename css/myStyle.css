@@ -250,7 +250,7 @@ section.sec2 {
 
 
 .carousel-item {
-    height: 100vh;
+    height: 80vh;
     min-height: 350px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -260,4 +260,17 @@ section.sec2 {
 }
 .sizeFontFoot{
     font-size: 1.3em;
+    color: #09C6AB;
+}
+.cont-box {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cont-box-1{
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }

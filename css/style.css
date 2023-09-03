@@ -90,8 +90,8 @@ h1 {
     width: 100%;
     position: relative;
     margin: 0 auto;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .gtco-nav {
@@ -2486,7 +2486,7 @@ form label {
     width: 95%;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 380px) {
   .main-header .header-wrapper {
     width: 97%;
   }
