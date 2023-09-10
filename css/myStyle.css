@@ -17,7 +17,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-
+z-index: 1;
     box-sizing: border-box;
     transition: .5s;
 }

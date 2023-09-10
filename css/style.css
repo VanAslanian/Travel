@@ -489,7 +489,6 @@ h1 {
 }
 
 .gtco-cover {
-    height: 900px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -513,8 +512,8 @@ h1 {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.5);
-}
+    background: rgb(23,242,245);
+    background: linear-gradient(0deg, rgba(23,242,245,0.9472163865546218) 0%, rgba(22,125,214,0.8407738095238095) 0%);}
 
 .gtco-cover > .gtco-container {
     position: relative;
@@ -529,7 +528,6 @@ h1 {
 
 .gtco-cover .display-t,
 .gtco-cover .display-tc {
-    height: 900px;
     display: table;
     width: 100%;
 }
@@ -542,7 +540,6 @@ h1 {
 }
 
 .gtco-cover.gtco-cover-sm {
-    height: 600px;
 }
 
 @media screen and (max-width: 768px) {
@@ -553,7 +550,6 @@ h1 {
 
 .gtco-cover.gtco-cover-sm .display-t,
 .gtco-cover.gtco-cover-sm .display-tc {
-    height: 600px;
     display: table;
     width: 100%;
 }
@@ -2132,10 +2128,9 @@ form label {
   }
 }
 .main-header {
-  position: absolute;
   top: 0;
   width: 100%;
-  z-index: 1000;
+    height: 70vh;
   font-family: Montserrat, sans-serif;
   color: #fff;
   background: transparent;
@@ -2144,7 +2139,6 @@ form label {
   display: block;
   width: 70%;
   margin: 0 auto;
-  padding-top: 1em;
 }
 .main-header .header-wrapper .main-logo {
   float: left;
@@ -2153,7 +2147,8 @@ form label {
 }
 .main-header .header-wrapper .main-menu {
   float: right;
-  text-align: center;
+    background: rgb(167,167,167);
+    background: linear-gradient(0deg, rgba(167,167,167,0.5802696078431373) 0%, rgba(167,167,167,0.3169642857142857) 0%);  text-align: center;
 }
 .main-header .header-wrapper .main-menu li {
   display: inline-block;
