@@ -188,22 +188,19 @@ section.sec2 {
 
 
 .imgLogo {
-    background-color: rgba(250, 249, 249, 0.3);
-
-    width: 90px;
+    background-color: rgba(250, 249, 249, 0.2);
+    width: 77px;
 }
 
-.imgLogo:hover {
-    background-color: rgba(250, 249, 249, 0.3);
 
-    transition: 1.5s;
-}
 
 .main-logo {
     padding-left: 20px;
 
 }
-
+ .main-logo a {
+     width: 10px !important;
+ }
 .menu {
     display: none;
 }
