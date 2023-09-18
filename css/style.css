@@ -2150,10 +2150,8 @@ form label {
     background: rgb(167,167,167);
     background: linear-gradient(0deg, rgba(167,167,167,0.5802696078431373) 0%, rgba(167,167,167,0.3169642857142857) 0%);  text-align: center;
 }
-.main-header .header-wrapper .main-menu li {
-  display: inline-block;
-  padding: 0.75em 1.875em;
-}
+
+
 .main-header .header-wrapper .main-menu li a {
   color: #fff;
 
@@ -2165,7 +2163,6 @@ form label {
   font-size: 1.2em;
 }
 .main-header .header-wrapper .main-menu li:last-child {
-  padding: 0.75em 0;
 }
 .main-header .header-wrapper .main-menu li:nth-child(6) a:hover,
 .main-header .header-wrapper .main-menu li:last-child a:hover {
