@@ -2146,6 +2146,8 @@ form label {
   font-size: 1.875em;
 }
 .main-header .header-wrapper .main-menu {
+    display: flex;
+    align-items: center;
   float: right;
     background: rgb(167,167,167);
     background: linear-gradient(0deg, rgba(167,167,167,0.5802696078431373) 0%, rgba(167,167,167,0.3169642857142857) 0%);  text-align: center;

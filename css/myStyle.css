@@ -105,6 +105,9 @@ section.sec2 {
         z-index: 1;
     }
 
+    .title-nav{
+        display: none;
+    }
     .responsive-bar .logo img {
         float: left;
         height: 50px;
@@ -269,4 +272,7 @@ section.sec2 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.viber{
+    width: 30px;
 }
