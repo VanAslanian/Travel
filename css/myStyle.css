@@ -437,8 +437,23 @@ section.sec2 {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1002px) {
+    .foot > div{
+        column-gap: 100px;
+    }
 }
+@media only screen and (max-width: 766px) {
+    .foot > div{
+        row-gap: 60px;
+    }
+}
+@media only screen and (max-width: 766px) {
+    #background .content .title h1{
+        font-size: 16px;
+    }
+}
+
+
 
 .mapouter {
     width: auto!important;
@@ -455,4 +470,11 @@ section.sec2 {
 
 .gmap_iframe {
     height: 250px !important;
+}
+.foot{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
