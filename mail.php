@@ -25,7 +25,7 @@ $mail->SMTPSecure = 'ssl'; //tls ssl
 $mail->Port = 465; //587 465
 
 $mail->setFrom('aslanyan.vanik@list.ru');   ///aslanianvan@gmail.com
-$mail->addAddress('aslanianvan@gmail.com');
+$mail->addAddress('elitecruises.am@gmail.com');
 
 $mail->isHTML(true);
 
