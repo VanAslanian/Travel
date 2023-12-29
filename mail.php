@@ -33,11 +33,6 @@ $mail->Subject = 'Request!!';
 $mail->Body    = '<br> Her Mail:  ' .$email;
 //$mail->AltBody = 'tghyugtjhnh';
 
-//echo "<pre>";
-//var_dump($mail);
-//echo "</pre>";
-
-
 if(!$mail->send()) {
     echo 'Error';
 } else {
