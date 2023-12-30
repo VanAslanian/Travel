@@ -1,6 +1,11 @@
 const langArr = {
+    "h1":{
+        "ru":"ЭЛИТ КРУИЗЫ",
+        "en":"ELITE CRUISES",
+        "am":"ELITE CRUISES"
+    },
     "unit" :  {
-        "ru": "ЭЛИТНЫЕ КРУИЗЫ ПРЕДЛАГАЮТ ТОЛЬКО ТАРИФЫ НА ДОСТАВКУ",
+        "ru": "ЭЛИТ КРУИЗЫ ПРЕДЛАГАЮТ ТОЛЬКО ТАРИФЫ НА ДОСТАВКУ",
         "en": "ELITE CRUISES HAVE SHIPPING RATES ONLY ",
         "am": "ELITE CRUISES-ՈՒՄ ՄԻԱՅՆ ՆԱՎԱՅԻՆ ԱՐԺԵՔՆԵՐ ԵՆ",
     },
