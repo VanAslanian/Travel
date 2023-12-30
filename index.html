@@ -1,10 +1,10 @@
-
 <!DOCTYPE HTML>
-<html>
+<html lang="en-us" xmlns="">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elite Cruise</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/icomoon.css">
@@ -15,26 +15,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Quicksand:wght@300&display=swap" rel="stylesheet">
-    <script src="js/modernizr-2.6.2.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
 <header class="main-header">
+
     <div class="header-wrapper">
         <nav>
-
             <ul class="main-menu">
                 <a href="#">
-                    <div class="main-logo menu-be"><img class="imgLogo" src="./images/logo1-removebg-preview.png" alt="">
+                    <div class="main-logo menu-be"><img class="imgLogo" src="./images/logo1-removebg-preview.png"
+                                                        alt="">
                     </div>
                 </a>
                 <div class="main-logo menu-fe">
                     <a href="#"><img class="imgLogo" src="./images/logo1-removebg-preview.png" alt=""></a>
                 </div>
                 <li class="title-nav" style="width: 100%">
-                    <p style=" font-weight: bold;  width: 100%;   padding-left: 10px;
-font-size: 13px;display: flex;">ELITE CRUISES-ՈՒՄ ՄԻԱՅՆ ՆԱՎԱՅԻՆ ԱՐԺԵՔՆԵՐ ԵՆ</p>
+                    <p class="lng-unit" style="font-weight: bold;  width: 100%;   padding-left: 10px;
+font-size: 13px;display: flex;">
+                        ELITE CRUISES-ՈՒՄ ՄԻԱՅՆ ՆԱՎԱՅԻՆ ԱՐԺԵՔՆԵՐ ԵՆ
+                    </p>
                 </li>
 
                 <li style="display: flex;flex-direction: row;padding-right:25px; align-items: center;height: 100%">
@@ -58,14 +60,39 @@ font-size: 13px;display: flex;">ELITE CRUISES-ՈՒՄ ՄԻԱՅՆ ՆԱՎԱՅԻՆ �
                                 class="fa fa-youtube-play"></i></a>
                     </div>
                 </li>
-
+<!--                <div id="lang_selector" class="language-dropdown">-->
+<!--                    <label for="toggle" class="lang-flag lang-en" title="Click to select the language">-->
+<!--                        <span class="flag"></span>-->
+<!--                    </label>-->
+<!--                    <ul class="lang-list">-->
+<!--                        <li class="lang lang-en selected" title="EN">-->
+<!--                            <span class="flag"></span>-->
+<!--                        </li>-->
+<!--                        <li class="lang lang-am" title="AM">-->
+<!--                            <span class="flag"></span>-->
+<!--                        </li>-->
+<!--                        <li class="lang lang-ru" title="RU">-->
+<!--                            <span class="flag"></span>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+                <label>
+                    <select class="change-lang">
+                        <option  class="sel-op sel-am"  value="am" selected >AM</option>
+                        <option class="sel-ru sel-op"  value="ru">RU</option>
+                        <option class="sel-en sel-op "  value="en">EN</option>
+                    </select>
+                </label>
             </ul>
-        </nav>
+
+
+                    </nav>
     </div>
     <div style="position:relative;" id="background">
         <div class="content">
             <div class="title">
-                <H1>Ավելի քան 10000 հասանելի կրուիզներից ինքնուրույն փնտրեք և ամրագրեք Ձեզ հարմար կրուիզը։</H1>
+                <H1 class="lng-title">Ավելի քան 10000 հասանելի կրուիզներից ինքնուրույն փնտրեք և ամրագրեք
+                    Ձեզ հարմար կրուիզը։</H1>
             </div>
         </div>
     </div>
@@ -75,16 +102,17 @@ font-size: 13px;display: flex;">ELITE CRUISES-ՈՒՄ ՄԻԱՅՆ ՆԱՎԱՅԻՆ �
 <div style="padding: 0 0; margin-top:13vh  " id="gtco-features">
 
     <iframe id="iframe"
-            src="https://center.cruises/widget/?uuid=d574a29b-19ea-4066-9064-32c1392d8d48&lang=en&currency=eur"
+
             style="width: 100%; height: 1100px; overflow: scroll; border: none;"></iframe>
 </div>
 <div id="gtco-subscribe">
     <div class="gtco-container">
         <div class="row animate-box">
             <div class="text-cond">
-                <p>- Ծովային նավարկությունը (ԿՐՈՒԻԶԸ) բարձրակարգ հանգստի տեսակ է։</p>
-                <p>- Elite Cruises-ում փնտրեք և գնեք Ձեր ցանկալի կրուիզը՝ անկախ նրանից, թե որ երկրում եք բնակվում։</p>
-                <p>- Կրուիզների մասին ավելին՝ սոց․ ցանցերի մեր էջերում։</p>
+                <p class="lng-str1">- Ծովային նավարկությունը (ԿՐՈՒԻԶԸ) բարձրակարգ հանգստի տեսակ է։</p>
+                <p class="lng-str2">- Elite Cruises-ում փնտրեք և գնեք Ձեր ցանկալի կրուիզը՝ անկախ նրանից, թե որ երկրում
+                    եք բնակվում։</p>
+                <p class="lng-str3">- Կրուիզների մասին ավելին՝ սոց․ ցանցերի մեր էջերում։</p>
             </div>
         </div>
     </div>
@@ -100,7 +128,7 @@ font-size: 13px;display: flex;">ELITE CRUISES-ՈՒՄ ՄԻԱՅՆ ՆԱՎԱՅԻՆ �
             </div>
             <div class="col-md-3 col-md-push-1 foot-media">
                 <div class="gtco-widget">
-                    <h3>Կապ մեզ հետ</h3>
+                    <h3 class="lng-contact">Կապ մեզ հետ</h3>
                     <ul class="gtco-quick-contact">
                         <li><a class="sizeFontFoot" style="text-decoration: none;!important;"
                                href="tel:+37477141118 "><i class="icon-phone"></i>+374 77 141118 </a>
@@ -121,10 +149,12 @@ font-size: 13px;display: flex;">ELITE CRUISES-ՈՒՄ ՄԻԱՅՆ ՆԱՎԱՅԻՆ �
                 </div>
                 <div class="content-sub">
                     <form class="subscription" action="mail.php" method="post">
-                        <input class="add-email" type="email" name="user_email" placeholder="subscribe@gmail.com">
+                        <label>
+                            <input class="add-email" type="email" name="user_email" placeholder="subscribe@gmail.com">
+                        </label>
                         <button class="submit-email" type="submit">
-                            <span class="before-submit">Բաժանորդագրվել</span>
-                            <span class="after-submit">Շնորհակալություն բաժանորդագրվելու համար!</span>
+                            <span class="before-submit lng-subscribe ">Բաժանորդագրվել</span>
+                            <span class="after-submit lng-subtitle ">Շնորհակալություն բաժանորդագրվելու համար!</span>
                         </button>
                     </form>
                 </div>
@@ -142,9 +172,11 @@ font-size: 13px;display: flex;">ELITE CRUISES-ՈՒՄ ՄԻԱՅՆ ՆԱՎԱՅԻՆ �
     <a class="js-gotop"><i class="icon-arrow-up"></i></a>
 </div>
 
+<script src="./js/lang.js"></script>
+<script src="./js/app.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script type="text/javascript">
-    document.querySelector('.submit-email').addEventListener('mousedown', (e) => {
+document.querySelector('.submit-email').addEventListener('mousedown', (e) => {
         e.preventDefault();
         document.querySelector('.subscription').classList.add('done');
     });
@@ -153,6 +185,28 @@ font-size: 13px;display: flex;">ELITE CRUISES-ՈՒՄ ՄԻԱՅՆ ՆԱՎԱՅԻՆ �
         $('.menu img').click(function () {
             $("nav ul").toggleClass("active")
         })
+    })
+
+
+    $(document).ready(function(){
+        $(".lang-flag").click(function(){
+            $(".language-dropdown").toggleClass("open");
+        });
+        $("ul.lang-list li").click(function(){
+            $("ul.lang-list li").removeClass("selected");
+            $(this).addClass("selected");
+            if($(this).hasClass('lang-en')){
+                $(".language-dropdown").find(".lang-flag").addClass("lang-en").removeClass("lang-ru").removeClass("lang-am");
+                $("#lang_selected").html("<p>EN</p>")
+            }else if($(this).hasClass('lang-am')){
+                $(".language-dropdown").find(".lang-flag").addClass("lang-am").removeClass("lang-ru").removeClass("lang-en");
+                $("#lang_selected").html("<p>AM</p>")
+            }else{
+                $(".language-dropdown").find(".lang-flag").addClass("lang-ru").removeClass("lang-en").removeClass("lang-am");
+                $("#lang_selected").html("<p>RU</p>")
+            }
+            $(".language-dropdown").removeClass("open");
+        });
     })
 </script>
 <script src="js/jquery.easing.1.3.js"></script>

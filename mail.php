@@ -14,7 +14,6 @@ $mail->CharSet = 'utf-8';
 //$phone = $_POST['user_phone'];
 $email = $_POST['user_email'];
 
-//$mail->SMTPDebug = 3;
 
 $mail->isSMTP();
 $mail->Host = 'smtp.mail.ru';
@@ -31,7 +30,6 @@ $mail->isHTML(true);
 
 $mail->Subject = 'Request!!';
 $mail->Body    = '<br> Her Mail:  ' .$email;
-//$mail->AltBody = 'tghyugtjhnh';
 
 if(!$mail->send()) {
     echo 'Error';

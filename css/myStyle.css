@@ -17,7 +17,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-z-index: 1;
+    z-index: 1;
     box-sizing: border-box;
     transition: .5s;
 }
@@ -55,10 +55,12 @@ nav > ul > li > a:hover {
 
     color: #fff;
 }
+
 .menu img {
     margin-top: 5px;
     width: 45px;
 }
+
 nav > ul > li > a {
     color: #262626;
     text-decoration: none;
@@ -93,7 +95,7 @@ section.sec2 {
 
 @media (max-width: 400px) {
     #background .content .title {
-        width: 96%!important;
+        width: 96% !important;
         opacity: 0;
         position: absolute;
         top: 68%;
@@ -106,14 +108,15 @@ section.sec2 {
 
 @media (max-width: 1005px) {
 
-    .foot-media{
+    .foot-media {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     #background .content .title {
-        width: 75%!important;
+        width: 75% !important;
         opacity: 0;
         position: absolute;
         top: 68%;
@@ -125,15 +128,17 @@ section.sec2 {
 }
 
 @media (max-width: 768px) {
-    .title-nav{
+    .title-nav {
         display: none;
     }
-    .main-menu{
+
+    .main-menu {
         justify-content: space-around
     }
 
 
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Cairo&family=Catamaran:wght@300&family=Quicksand:wght@300&display=swap');
 .text-cond p {
     font-family: 'Cairo', sans-serif;
@@ -154,14 +159,15 @@ section.sec2 {
 }
 
 
-
 .main-logo {
     padding-left: 20px;
 
 }
- .main-logo a {
-     width: 10px !important;
- }
+
+.main-logo a {
+    width: 10px !important;
+}
+
 .menu {
     display: none;
 }
@@ -177,8 +183,9 @@ section.sec2 {
         justify-content: flex-end;
 
     }
-    .desc{
-        font-size:20px ;
+
+    .desc {
+        font-size: 20px;
     }
 
     .menu h4 {
@@ -188,23 +195,22 @@ section.sec2 {
     .menu-fe {
         display: none;
     }
-.menu-be{
-    display: block;
-}
+
+    .menu-be {
+        display: block;
+    }
+
     .imgLogo {
         width: 60px;
     }
 }
 
 
-
-@media screen and (max-width: 480px)
-{
-    .desc{
+@media screen and (max-width: 480px) {
+    .desc {
         font-size: 10px;
     }
 }
-
 
 
 .carousel-item {
@@ -216,23 +222,27 @@ section.sec2 {
     -o-background-size: cover;
     background-size: cover;
 }
-.sizeFontFoot{
+
+.sizeFontFoot {
     font-size: 1.3em;
     color: #09C6AB;
 }
+
 .cont-box {
     min-width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.cont-box-1{
+
+.cont-box-1 {
     min-width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.viber{
+
+.viber {
     width: 30px;
 }
 
@@ -437,25 +447,26 @@ section.sec2 {
 }
 
 @media only screen and (max-width: 1002px) {
-    .foot > div{
+    .foot > div {
         column-gap: 100px;
     }
 }
+
 @media only screen and (max-width: 766px) {
-    .foot > div{
+    .foot > div {
         row-gap: 60px;
     }
 }
+
 @media only screen and (max-width: 766px) {
-    #background .content .title h1{
+    #background .content .title h1 {
         font-size: 16px;
     }
 }
 
 
-
 .mapouter {
-    width: auto!important;
+    width: auto !important;
     position: relative;
     text-align: center;
     height: 250px;
@@ -470,10 +481,151 @@ section.sec2 {
 .gmap_iframe {
     height: 250px !important;
 }
-.foot{
+
+.foot {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+
+/*url("https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css")*/
+
+
+.shadow-1, .language-dropdown ul.lang-list, .language-dropdown label {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.shadow-2, .language-dropdown.open label {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.shadow-3 {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.shadow-4 {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.shadow-5 {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+
+.language-dropdown {
+    display: inline-block;
+    margin: 5px 5px;
+}
+
+.language-dropdown .lang-en {
+    border-left: 4px solid #E2162C;
+}
+
+.language-dropdown .lang-en .flag {
+    background-image: url("../images/18165.jpg");
+}
+
+.language-dropdown .lang-am {
+    border-left: 4px solid #1ABC9C;
+}
+
+.language-dropdown .lang-am .flag {
+    background-image: url("../images/illustration-armenia-flag_53876-27138.jpg");
+}
+
+.language-dropdown .lang-ru {
+    border-left: 4px solid #DA4D13;
+}
+
+.language-dropdown .lang-ru .flag {
+    background-image: url("../images/27016.jpg");
+}
+
+.language-dropdown label, .language-dropdown ul li {
+    box-sizing: border-box;
+    display: block;
+    width: 40px;
+    height: 28px;
+    background: linear-gradient(0deg, rgba(167, 167, 167, 0.5802696078431373) 0%, rgba(167, 167, 167, 0.3169642857142857) 0%);
+    cursor: pointer;
+}
+
+.language-dropdown ul.lang-list {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.language-dropdown ul.lang-list li {
+    /*border-bottom: 0px solid #ECECEC;*/
+}
+
+.language-dropdown ul.lang-list li:last-child {
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.language-dropdown ul.lang-list li.selected {
+    display: none;
+}
+
+.language-dropdown label {
+    position: relative;
+    /*border-bottom: 1px solid #ECECEC;*/
+    border-radius: 3px;
+    z-index: 2;
+}
+
+.language-dropdown .lang-flag .flag, .language-dropdown .lang-list .lang .flag {
+    float: left;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-size: 25px 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.language-dropdown.open ul.lang-list {
+    visibility: visible;
+    opacity: 1;
+}
+
+.language-dropdown.open label {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.animate, .lang-flag, .lang-list {
+    cursor: pointer;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -ms-transition: all .5s;
+    transition: all .5s;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+}
+
+.change-lang {
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(0deg, rgba(167, 167, 167, 0.5802696078431373) 0%, rgba(167, 167, 167, 0.3169642857142857) 0%);
+    border: none
+}
+
+ .sel-op {
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(0deg, rgba(167, 167, 167, 0.5802696078431373) 0%, rgba(167, 167, 167, 0.3169642857142857) 0%);
+    border: none
+
 }
