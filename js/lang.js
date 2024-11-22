@@ -1,10 +1,10 @@
 const langArr = {
-    "h1":{
-        "ru":"ЭЛИТ КРУИЗЫ",
-        "en":"ELITE CRUISES",
-        "am":"ELITE CRUISES"
+    "h1": {
+        "ru": "ЭЛИТ КРУИЗЫ",
+        "en": "ELITE CRUISES",
+        "am": "ELITE CRUISES"
     },
-    "unit" :  {
+    "unit": {
         "ru": "ЭЛИТ КРУИЗЫ ПРЕДЛАГАЮТ ТОЛЬКО ТАРИФЫ НА ДОСТАВКУ",
         "en": "ELITE CRUISES HAVE SHIPPING RATES ONLY ",
         "am": "ELITE CRUISES-ՈՒՄ ՄԻԱՅՆ ՆԱՎԱՅԻՆ ԱՐԺԵՔՆԵՐ ԵՆ",
@@ -43,5 +43,10 @@ const langArr = {
         "ru": "Спасибо за подписку!",
         "en": "Thanks for subscribing!",
         "am": "Շնորհակալություն բաժանորդագրվելու համար!",
+    },
+    "address": {
+        "am": "Խորենացի 15, 0010, Երևան, ՀՀ (խնդրում ենք նախապես ամրագրել այց)",
+        "en": "15 Khorenatsi Str., 0010, Yerevan, Armenia",
+        "ru": "Ул. Хоренаци 15, 0010, Ереван, Армения"
     }
 }
