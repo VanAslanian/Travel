@@ -17,148 +17,165 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head>
 <body>
 <H1 hidden class="lng-h1">ELITE CRUISES</H1>
 <header class="main-header">
-
     <div class="header-wrapper">
         <nav>
             <ul class="main-menu">
                 <a href="#">
-                    <div class="main-logo menu-be"><img class="imgLogo" src="./images/logo1-removebg-preview.png"
-                                                        alt="">
+                    <div class="main-logo menu-be">
+                        <img class="imgLogo" src="./images/logo1-removebg-preview.png" alt="">
                     </div>
                 </a>
                 <div class="main-logo menu-fe">
-                    <a href="javascript:location.reload(true)"><img class="imgLogo" src="./images/logo1-removebg-preview.png" alt=""></a>
+                    <a href="javascript:location.reload(true)">
+                        <img class="imgLogo" src="./images/logo1-removebg-preview.png" alt="">
+                    </a>
                 </div>
                 <li class="title-nav" style="width: 100%">
-                    <p class="lng-unit" style="font-weight: bold;  width: 100%;   padding-left: 10px;
-font-size: 13px;display: flex;">
-                        ELITE CRUISES-ՈՒՄ ՄԻԱՅՆ ՆԱՎԱՅԻՆ ԱՐԺԵՔՆԵՐ ԵՆ
+                    <p class="lng-unit"
+                       style="font-weight: bold;  width: 100%;   padding-left: 10px; font-size: 13px;display: flex;">
+                        ELITE CRUISES-ՈՒՄ ՄԻԱՅՆ ՆԱՎԱՅԻՆ ԱՐԺԵՔՆԵՐ ԵՆ
                     </p>
                 </li>
-
                 <li style="display: flex;flex-direction: row; align-items: center;height: 100%">
-
-                    <div class="wrp"><a class="icon icon-twitter" target=”_blank”
-                                        href="https://www.tiktok.com/@elitecruises?is_from_webapp=1&sender_device=pc">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
-                            <path fill="#fff"
-                                  d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/>
-                        </svg>
-                    </a><a
-                            class="icon icon-facebook" target=”_blank”
-                            href="https://www.facebook.com/EliteCruises.am"><i class="fa fa-facebook"></i></a><a
-                            class="icon icon-instagram" target=”_blank”
-                            href="https://www.instagram.com/elitecruises.am/"><i class="fa fa-instagram"></i></a>
-                        <a class="icon icon-gplus" target=”_blank”
-                           href="mailto:https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=elitecruises.am@gmail.com"><i
-                                class="fa fa-google-plus"></i></a>
-
-                        <a class="icon icon-gplus" target=”_blank” href="https://www.youtube.com/@elitecruises_am"><i
-                                class="fa fa-youtube-play"></i></a>
+                    <div class="wrp">
+                        <a class="icon icon-twitter" target="_blank" href="https://www.tiktok.com/@elitecruises">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                <path fill="#fff"
+                                      d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/>
+                            </svg>
+                        </a>
+                        <a class="icon icon-facebook" target="_blank" href="https://www.facebook.com/EliteCruises.am">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a class="icon icon-instagram" target="_blank"
+                           href="https://www.instagram.com/elitecruises.am/">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a class="icon icon-gplus" target="_blank" href="mailto:elitecruises.am@gmail.com">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                        <a class="icon icon-youtube" target="_blank" href="https://www.youtube.com/@elitecruises_am">
+                            <i class="fa fa-youtube-play"></i>
+                        </a>
                     </div>
                 </li>
-                <label>
+                <label class="select-wrapper">
                     <select class="change-lang">
-                        <option class="sel-op sel-am" value="am" selected>AM</option>
-                        <option class="sel-ru sel-op" value="ru">RU</option>
-                        <option class="sel-en sel-op " value="en">EN</option>
+                        <option value="am">AM</option>
+                        <option value="ru">RU</option>
+                        <option value="en" selected>EN</option>
                     </select>
                 </label>
+                <li>
+                    <button id="contactUsBtn" class="contact-btn">
+                        <i class="fa fa-envelope"></i>
+                    </button>
+
+                </li>
             </ul>
         </nav>
     </div>
     <div style="position:relative;" id="background">
         <div class="content">
             <div class="title">
-                <H2 class="lng-title">Ավելի քան 10000 հասանելի կրուիզներից ինքնուրույն փնտրեք և ամրագրեք
-                    Ձեզ հարմար կրուիզը։</H2>
+                <H2 class="lng-title">Ավելի քան 10000 հասանելի կրուիզներից ինքնուրույն փնտրեք և ամրագրեք Ձեր հարմար
+                    կրուիզը։</H2>
+            </div>
+        </div>
+    </div>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="contact-container">
+                <h3 class="lng-contact">Կապ մեզ հետ</h3>
+                <ul class="gtco-quick-contact">
+                    <li>
+                        <a class="contact-link" href="tel:+37477141118">
+                            <i class="icon-phone"></i> +374 77 141118
+                        </a>
+                        <a
+                                aria-label="Viber"
+                                target="_blank"
+                                href="viber://chat/?number=%2B37477141118"
+                                class="social-icon viber">
+                            <img class="viber-icon" src="./icons/viber_3128336.png" alt="Viber">
+                        </a>
+                        <a
+                                aria-label="WhatsApp"
+                                target="_blank"
+                                href="https://api.whatsapp.com/send?phone=+37477141118&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Elite%20Cruises."
+                                class="social-icon whatsapp">
+                            <i class="fa fa-whatsapp"></i>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a class="contact-link" target="_blank" href="mailto:elitecruises.am@gmail.com">
+                            <i class="icon-mail2"></i> elitecruises.am@gmail.com
+                        </a>
+                    </li>
+                    <li>
+                        <a class="contact-link" target="_blank" href="https://www.google.com/search?q=Խորենացի+15">
+                            <i class="fa fa-map-marker"></i> 15 Khorenatsi Str., 0010, Yerevan, Armenia
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="google-map">
+                    <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.5905909198336!2d44.50711707657927!3d40.178853519653456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abce8175afaf5%3A0x7495cfab6d68c85!2s15%20Khorenatsi%20St%2C%20Yerevan%200010%2C%20Armenia!5e0!3m2!1sen!2s!4v1698083585921!5m2!1sen!2s"
+                            width="100%"
+                            height="300"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
             </div>
         </div>
     </div>
 </header>
 <div style="padding: 0 0; margin-top:13vh  " id="gtco-features">
-    <iframe id="iframe" style="width: 100%; height: 1100px; overflow: scroll; border: none;"></iframe>
+    <iframe id="iframeCruise" style="width: 100%; height: 1100px; overflow: scroll; border: none;"></iframe>
 </div>
-<div id="gtco-subscribe">
-    <div class="gtco-container">
-        <div class="row animate-box">
-            <div class="text-cond">
-                <p class="lng-str1">- Ծովային նավարկությունը (ԿՐՈՒԻԶԸ) բարձրակարգ հանգստի տեսակ է։</p>
-                <p class="lng-str2">- Elite Cruises-ում փնտրեք և գնեք Ձեր ցանկալի կրուիզը՝ անկախ նրանից, թե որ երկրում
-                    եք բնակվում։</p>
-                <p class="lng-str3">- Կրուիզների մասին ավելին՝ սոց․ ցանցերի մեր էջերում։</p>
-            </div>
-        </div>
-    </div>
-</div>
-<footer id="gtco-footer" role="contentinfo">
-    <div class="foot">
-        <div style="display:flex;  justify-content: center;width: 100%" class="row row-p	b-md">
-            <div class="mapouter">
-                <div class="gmap_canvas">
-                    <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                            src="https://maps.google.com/maps?width=350&amp;height=350&amp;hl=en&amp;q=Խորենացի 15&amp;t=p&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-                </div>
-            </div>
-            <div class="col-md-3 col-md-push-1 foot-media">
-                <div class="gtco-widget">
-                    <h3 class="lng-contact">Կապ մեզ հետ</h3>
-                    <ul class="gtco-quick-contact">
-                        <li><a class="sizeFontFoot" style="text-decoration: none;!important;"
-                               href="tel:+37477141118 "><i class="icon-phone"></i>+374 77 141118 </a>
-                            <a aria-label="Viber" target="_blank" rel="noopener noreferrer"
-                               href="viber://chat/?number=%2B37477141118"
-                               class="float-1" target="_blank">
-                                <img class="viber" src="./icons/viber_3128336.png" alt="">
-                            </a>
-                        </li>
-                        <li><a class="sizeFontFoot" style="text-decoration: none;!important;" target="_blank"
-                               href="mailto:elitecruises.am@gmail.com"><i class="icon-mail2"></i>elitecruises.am@gmail.com</a>
-                        </li>
-                        <li><a class="sizeFontFoot" style="text-decoration: none;!important;" target="_blank"
-                               href="https://www.google.com/search?sca_esv=564199467&tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=AB5stBhnDNFmLO7jx1p4gOciEsMFs02hxQ:1694380238727&q=Խորենացի+15&rflfq=1&num=10&ved=2ahUKEwipkvmh-qCBAxWCSvEDHaFmAAwQtgN6BAgWEAc#rlfi=hd:;si:;mv:[[40.2010169,44.519231999999995],[40.1602762,44.470818799999996]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2"><i
-                                class="fa fa-map-marker"></i>15 Khorenatsi Str., 0010, Yerevan, Armenia</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="content-sub">
-                    <form class="subscription" action="mail.php" method="post">
-                        <label>
-                            <input class="add-email" type="email" name="user_email" placeholder="subscriber@gmail.com">
-                        </label>
-                        <button class="submit-email" type="submit">
-                            <span class="before-submit lng-subscribe ">Բաժանորդագրվել</span>
-                            <span class="after-submit lng-subtitle ">Շնորհակալություն բաժանորդագրվելու համար!</span>
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<a href="https://api.whatsapp.com/send?phone=+374 77 141118&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
-   class="float" target="_blank">
-    <i class="fa fa-whatsapp my-float"></i>
-</a>
+
 
 <div class="gototop js-top">
     <a class="js-gotop"><i class="icon-arrow-up"></i></a>
 </div>
-
 <script src="./js/lang.js"></script>
 <script src="./js/app.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
 <script type="text/javascript">
+    document.getElementById('contactUsBtn').addEventListener('click', function () {
+        document.getElementById('contactModal').style.display = 'block';
+    });
+
+    document.querySelector('.close-btn').addEventListener('click', function () {
+        document.getElementById('contactModal').style.display = 'none';
+    });
+
+    window.addEventListener('click', function (event) {
+        const modal = document.getElementById('contactModal');
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+
     document.querySelector('.submit-email').addEventListener('mousedown', (e) => {
         e.preventDefault();
         document.querySelector('.subscription').classList.add('done');
     });
-    /*menu button onclick function*/
     $(document).ready(function () {
         $('.menu img').click(function () {
             $("nav ul").toggleClass("active")

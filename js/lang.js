@@ -31,7 +31,7 @@ const langArr = {
     },
     "contact": {
         "ru": "Связаться с нами",
-        "en": "contact us",
+        "en": "Contact us",
         "am": "Կապ մեզ հետ",
     },
     "subscribe": {

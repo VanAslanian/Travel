@@ -1,7 +1,7 @@
 const maxImg = document.querySelector('.imgLogo img');
 const select = document.querySelector('select');
 const allLang = ['am', 'en', 'ru'];
-let iframe = document.querySelector('iframe')
+let iframe = document.querySelector('#iframeCruise')
 document.querySelectorAll('.left-panel img').forEach(item => item.onmouseenter = (event) => maxImg.src = event.target.src);
 if ( window.location.hash === '#en'){
     iframe.setAttribute('src','https://center.cruises/widget/?uuid=d574a29b-19ea-4066-9064-32c1392d8d48&lang=en&currency=eur')
