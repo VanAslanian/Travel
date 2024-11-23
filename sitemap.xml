@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <!-- Главная страница -->
+    <url>
+        <loc>https://www.elitecruises.am/</loc>
+        <lastmod>2024-11-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        <!-- Альтернативные языковые версии -->
+        <xhtml:link rel="alternate" hreflang="am" href="https://www.elitecruises.am/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.elitecruises.am/en/" />
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.elitecruises.am/ru/" />
+    </url>
+</urlset>
