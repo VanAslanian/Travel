@@ -5,14 +5,14 @@ const langArr = {
         "am": "ELITE CRUISES"
     },
     "unit": {
-        "ru": "ЭЛИТ КРУИЗЫ ПРЕДЛАГАЮТ ТОЛЬКО ТАРИФЫ НА ДОСТАВКУ",
-        "en": "ELITE CRUISES HAVE SHIPPING RATES ONLY ",
-        "am": "ELITE CRUISES-ՈՒՄ ՄԻԱՅՆ ՆԱՎԱՅԻՆ ԱՐԺԵՔՆԵՐ ԵՆ",
+        "ru": "В ELITE CRUISES только официальные цены круизных компаний.",
+        "en": "At ELITE CRUISES, you get official cruise line prices.",
+        "am": "ELITE CRUISES-ում ուղիղ նավային արժեքներ են",
     },
     "title": {
         "ru": "Выберите и забронируйте идеальный круиз из 20 000+. Не нашли подходящий? Напишите нам в WhatsApp!",
-        "en": "Choose and book your perfect cruise from 20,000+. Can’t find one? Message us on WhatsApp!",
-        "am": "Ընտրեք և ամրագրեք ձեր ցանկալի կրուիզը 20,000+ տարբերակներից։ Չե՞ք գտնում՝ գրեք մեր WhatsApp-ին։",
+        "en": "Choose and book your perfect cruise from 20,000+ options.Can’t find one? Message us on WhatsApp, and we’ll gladly assist you! :)",
+        "am": "Выберите и забронируйте идеальный для вас круиз из 20,000+ вариантов.Не нашли подходящий? Напишите нам в WhatsApp, и мы с радостью вам поможем! :)"
     },
     "str1": {
         "ru": "- Морское плавание (КРУИЗ) – это вид отдыха высокого класса.",
@@ -48,5 +48,20 @@ const langArr = {
         "am": "Խորենացի 15, 0010, Երևան, ՀՀ (խնդրում ենք նախապես ամրագրել այց)",
         "en": "15 Khorenatsi Str., 0010, Yerevan, Armenia",
         "ru": "Ул. Хоренаци 15, 0010, Ереван, Армения"
+    },
+    "elite": {
+        "am": "«ԷԼԻՏ ԿՐՈՒԻԶԻՍ ԸՆԴ ԻՆՇՈՒՐԸՆՍ» ՍՊԸ",
+        "en": "«ELITE CRUISES & INSURANCE» LLC",
+        "ru": "«ЭЛИТ КРУИЗИС ЭНД ИНШУРАНС» ООО"
+    },
+    description: {
+        am: "Elite Cruises-ը առաջարկում է շքեղ կռուիզներ և բացառիկ ծովային արկածներ:",
+        ru: "Elite Cruises предлагает роскошные круизы и незабываемый отдых на яхтах.",
+        en: "Elite Cruises offers luxury cruises and exclusive yacht vacations worldwide."
+    },
+    keywords: {
+        am: "քրուիզ, շքեղ, Elite Cruises, ճամփորդություն",
+        ru: "круизы, роскошь, Elite Cruises, путешествия",
+        en: "cruises, luxury, Elite Cruises, travel",
     }
 }

@@ -91,7 +91,7 @@ section.sec2 {
         width: 96% !important;
         opacity: 0;
         position: absolute;
-        top: 68%;
+        top: 55%;
         left: 95%;
         transform: translate(-95%, 46%) !important;
         animation: anim_opacity 1s forwards;
@@ -112,7 +112,7 @@ section.sec2 {
         width: 75% !important;
         opacity: 0;
         position: absolute;
-        top: 68%;
+        top: 55%;
         left: 95%;
         transform: translate(-92%, -27%) !important;
         animation: anim_opacity 1s forwards;
